@@ -1,0 +1,32 @@
+﻿.content {
+    margin: 20px;
+    margin-left: 35%;
+}
+
+.formFields {
+    display: none;
+}
+
+button {
+    margin-left: 7% !important;
+}
+
+.formFieldGroup input {
+    font-size: 14px !important;
+    min-width: 300px !important;
+    min-height: 30px !important;
+}
+
+.no-registry {
+    text-align: center !important;
+}
+
+#divAirplanes {
+    text-align: center;
+    margin-left: 18%;
+    width: 900px;
+}
+
+table {
+    margin-left: 20%;
+}
