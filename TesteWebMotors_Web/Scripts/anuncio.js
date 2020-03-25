@@ -38,10 +38,11 @@ function salvarAnuncio() {
             data: data,
             dataType: "json",
             success: function (data) {
-                window.location.href = "http://localhost:44321/";
+                window.location.reload();
             },
             error: function (a, b, c) {
-                listarAnuncios();
+                window.location.reload();
+
             }
         });
 
