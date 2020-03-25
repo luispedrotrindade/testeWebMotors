@@ -22,3 +22,11 @@ C:\Users\mazza\OneDrive\Documentos\GitHub\Gol\TesteWebMotors\obj\Debug\netcoreap
 C:\Users\mazza\OneDrive\Documentos\GitHub\Gol\TesteWebMotors\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
 C:\Users\mazza\OneDrive\Documentos\GitHub\Gol\TesteWebMotors\obj\Debug\netcoreapp3.1\Domain.dll
 C:\Users\mazza\OneDrive\Documentos\GitHub\Gol\TesteWebMotors\obj\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\TesteWebMotors\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\TesteWebMotors\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\TesteWebMotors\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\TesteWebMotors\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\TesteWebMotors\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\TesteWebMotors\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\TesteWebMotors\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\TesteWebMotors\obj\Debug\netcoreapp3.1\Domain.pdb

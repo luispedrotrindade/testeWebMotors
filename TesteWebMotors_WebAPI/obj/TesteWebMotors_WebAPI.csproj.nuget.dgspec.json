@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\TesteWebMotors_WebAPI\\TesteWebMotors_WebAPI.csproj": {}
+    "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\TesteWebMotors_WebAPI\\TesteWebMotors_WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\Application\\Application.csproj": {
+    "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\mazza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\Application\\obj\\",
+        "outputPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\TesteWebMotors\\Domain.csproj": {
-                "projectPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\TesteWebMotors\\Domain.csproj"
+              "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\TesteWebMotors\\Domain.csproj": {
+                "projectPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\TesteWebMotors\\Domain.csproj"
               }
             }
           }
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\Infra\\Infra.csproj": {
+    "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\Infra\\Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\Infra\\Infra.csproj",
+        "projectUniqueName": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\Infra\\Infra.csproj",
         "projectName": "Infra",
-        "projectPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\Infra\\Infra.csproj",
+        "projectPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\Infra\\Infra.csproj",
         "packagesPath": "C:\\Users\\mazza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\Infra\\obj\\",
+        "outputPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -91,8 +91,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\TesteWebMotors\\Domain.csproj": {
-                "projectPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\TesteWebMotors\\Domain.csproj"
+              "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\TesteWebMotors\\Domain.csproj": {
+                "projectPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\TesteWebMotors\\Domain.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\TesteWebMotors\\Domain.csproj": {
+    "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\TesteWebMotors\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\TesteWebMotors\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\TesteWebMotors\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\TesteWebMotors\\Domain.csproj",
+        "projectPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\TesteWebMotors\\Domain.csproj",
         "packagesPath": "C:\\Users\\mazza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\TesteWebMotors\\obj\\",
+        "outputPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\TesteWebMotors\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -194,14 +194,14 @@
         }
       }
     },
-    "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\TesteWebMotors_WebAPI\\TesteWebMotors_WebAPI.csproj": {
+    "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\TesteWebMotors_WebAPI\\TesteWebMotors_WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\TesteWebMotors_WebAPI\\TesteWebMotors_WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\TesteWebMotors_WebAPI\\TesteWebMotors_WebAPI.csproj",
         "projectName": "TesteWebMotors_WebAPI",
-        "projectPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\TesteWebMotors_WebAPI\\TesteWebMotors_WebAPI.csproj",
+        "projectPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\TesteWebMotors_WebAPI\\TesteWebMotors_WebAPI.csproj",
         "packagesPath": "C:\\Users\\mazza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\TesteWebMotors_WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\TesteWebMotors_WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -221,11 +221,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\Application\\Application.csproj"
+              "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\Application\\Application.csproj"
               },
-              "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\Infra\\Infra.csproj": {
-                "projectPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\Gol\\Infra\\Infra.csproj"
+              "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\Infra\\Infra.csproj": {
+                "projectPath": "C:\\Users\\mazza\\OneDrive\\Documentos\\GitHub\\testeWebMotors\\Infra\\Infra.csproj"
               }
             }
           }

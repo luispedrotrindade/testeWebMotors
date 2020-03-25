@@ -20,3 +20,14 @@ C:\Users\mazza\OneDrive\Documentos\GitHub\Gol\Infra\obj\Debug\netcoreapp3.1\Infr
 C:\Users\mazza\OneDrive\Documentos\GitHub\Gol\Infra\obj\Debug\netcoreapp3.1\Infra.csproj.CopyComplete
 C:\Users\mazza\OneDrive\Documentos\GitHub\Gol\Infra\obj\Debug\netcoreapp3.1\Infra.dll
 C:\Users\mazza\OneDrive\Documentos\GitHub\Gol\Infra\obj\Debug\netcoreapp3.1\Infra.pdb
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\Infra\bin\Debug\netcoreapp3.1\Infra.deps.json
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\Infra\bin\Debug\netcoreapp3.1\Infra.dll
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\Infra\bin\Debug\netcoreapp3.1\Infra.pdb
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\Infra\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\Infra\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\Infra\obj\Debug\netcoreapp3.1\Infra.csprojAssemblyReference.cache
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\Infra\obj\Debug\netcoreapp3.1\Infra.AssemblyInfoInputs.cache
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\Infra\obj\Debug\netcoreapp3.1\Infra.AssemblyInfo.cs
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\Infra\obj\Debug\netcoreapp3.1\Infra.csproj.CopyComplete
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\Infra\obj\Debug\netcoreapp3.1\Infra.dll
+C:\Users\mazza\OneDrive\Documentos\GitHub\testeWebMotors\Infra\obj\Debug\netcoreapp3.1\Infra.pdb

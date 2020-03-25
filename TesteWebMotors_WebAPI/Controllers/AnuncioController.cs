@@ -13,12 +13,12 @@ namespace TesteWebMotors_WebAPI.Controllers
     [ApiController]
     public class AnuncioController : ControllerBase
     {
-        private IAppAnuncio appAirPlane;
+        private IAppAnuncio appAnuncio;
 
 
         public AnuncioController(IAppAnuncio _appAnuncio)
         {
-            this.appAirPlane = _appAnuncio;
+            this.appAnuncio = _appAnuncio;
         }
 
         // GET: api/Anuncio
@@ -27,9 +27,9 @@ namespace TesteWebMotors_WebAPI.Controllers
         {
             try
             {
-                var airplanes = appAirPlane.List();
+                var anuncios = appAnuncio.List();
 
-                return StatusCode(200, airplanes);
+                return StatusCode(200, anuncios);
             }
             catch (Exception ex)
             {
@@ -43,8 +43,8 @@ namespace TesteWebMotors_WebAPI.Controllers
         {
             try
             {
-                var airPlane = appAirPlane.GetEntity(id);
-                return StatusCode(200, airPlane);
+                var anuncio = appAnuncio.GetEntity(id);
+                return StatusCode(200, anuncio);
             }
             catch (Exception ex)
             {
@@ -54,12 +54,11 @@ namespace TesteWebMotors_WebAPI.Controllers
 
         // POST: api/Anuncio
         [HttpPost]
-        public ActionResult Post([FromBody]Anuncio airplane)
+        public ActionResult Post([FromBody]Anuncio anuncio)
         {
             try
             {
-                airplane.CreationDate = DateTime.Now;
-                appAirPlane.Add(airplane);
+                appAnuncio.Add(anuncio);
                 return StatusCode(200, 1);
             }
             catch (Exception ex)
@@ -70,11 +69,11 @@ namespace TesteWebMotors_WebAPI.Controllers
 
         // PUT: api/Anuncio/5
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody]Anuncio airplane)
+        public ActionResult Put(int id, [FromBody]Anuncio anuncio)
         {
             try
             {
-                appAirPlane.Update(airplane);
+                appAnuncio.Update(anuncio);
                 return StatusCode(200);
             }
             catch (Exception ex)
@@ -87,9 +86,16 @@ namespace TesteWebMotors_WebAPI.Controllers
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            var airplane = appAirPlane.GetEntity(id);
-            appAirPlane.Delete(airplane);
-            return StatusCode(200);
+            try
+            {
+                var anuncio = appAnuncio.GetEntity(id);
+                appAnuncio.Delete(anuncio);
+                return StatusCode(200);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
         }
     }
 }

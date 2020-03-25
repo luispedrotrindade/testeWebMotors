@@ -11,8 +11,8 @@ button {
     margin-left: 7% !important;
 }
 
-.formFieldGroup input {
-    font-size: 14px !important;
+.formFieldGroup * {
+    font-size: 12px !important;
     min-width: 300px !important;
     min-height: 30px !important;
 }
@@ -28,5 +28,9 @@ button {
 }
 
 table {
-    margin-left: 20%;
+    font-size: 10px;
+}
+
+h2 {
+    text-align: center;
 }

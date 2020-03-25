@@ -23,10 +23,13 @@ namespace Infra.Repository.Anuncio
         {
             using (var db = new ContextBase(_OptionsBuider.Options))
             {
-                var model = new SqlParameter("@Model", Entity.Model);
-                var qtdPassengers = new SqlParameter("@QtdPassengers", Entity.QtdPassengers);
-                var creationDate = new SqlParameter("@CreationDate", Entity.CreationDate);
-                db.Database.ExecuteSqlCommand("CreateAnuncio @Model, @QtdPassengers, @CreationDate", model, qtdPassengers, creationDate);
+                var marca = new SqlParameter("@marca", Entity.marca);
+                var modelo = new SqlParameter("@modelo", Entity.modelo);
+                var versao = new SqlParameter("@versao", Entity.versao);
+                var ano = new SqlParameter("@ano", Entity.ano);
+                var quilometragem = new SqlParameter("@quilometragem", Entity.quilometragem);
+                var observacao = new SqlParameter("@observacao", Entity.observacao);
+                db.Database.ExecuteSqlCommand("CreateAnuncio @marca, @modelo, @versao, @ano, @quilometragem, @observacao", marca, modelo, versao, ano, quilometragem, observacao);
                 db.SaveChanges();
             }
         }
@@ -35,11 +38,14 @@ namespace Infra.Repository.Anuncio
         {
             using (var db = new ContextBase(_OptionsBuider.Options))
             {
-                var id = new SqlParameter("@Id", Entity.Id);
-                var model = new SqlParameter("@Model", Entity.Model);
-                var qtdPassengers = new SqlParameter("@QtdPassengers", Entity.QtdPassengers);
-                var creationDate = new SqlParameter("@CreationDate", Entity.CreationDate);
-                db.Database.ExecuteSqlCommand("UpdateAnuncio @Id, @Model, @QtdPassengers, @CreationDate", id, model, qtdPassengers, creationDate);
+                var id = new SqlParameter("@id", Entity.id);
+                var marca = new SqlParameter("@marca", Entity.marca);
+                var modelo = new SqlParameter("@modelo", Entity.modelo);
+                var versao = new SqlParameter("@versao", Entity.versao);
+                var ano = new SqlParameter("@ano", Entity.ano);
+                var quilometragem = new SqlParameter("@quilometragem", Entity.quilometragem);
+                var observacao = new SqlParameter("@observacao", Entity.observacao);
+                db.Database.ExecuteSqlCommand("UpdateAnuncio @id, @marca, @modelo, @versao, @ano, @quilometragem, @observacao", id, marca, modelo, versao, ano, quilometragem, observacao);
                 db.SaveChanges();
             }
         }
@@ -48,8 +54,8 @@ namespace Infra.Repository.Anuncio
         {
             using (var db = new ContextBase(_OptionsBuider.Options))
             {
-                var param = new SqlParameter("@Id", Entity.Id);
-                db.Database.ExecuteSqlCommand("DeleteAnuncio @Id", param);
+                var param = new SqlParameter("@id", Entity.id);
+                db.Database.ExecuteSqlCommand("DeleteAnuncio @id", param);
                 db.SaveChanges();
             }
         }
@@ -66,9 +72,9 @@ namespace Infra.Repository.Anuncio
         {
             using (var db = new ContextBase(_OptionsBuider.Options))
             {
-                var param = new SqlParameter("@Id", Id);
-                var airplanes = db.Anuncio.FromSqlRaw("GetById @Id", param).ToList();
-                return airplanes[0];
+                var id = new SqlParameter("@id", Id);
+                var anuncios = db.Anuncio.FromSqlRaw("GetById @id", id).ToList();
+                return anuncios[0];
             }
         }
     }

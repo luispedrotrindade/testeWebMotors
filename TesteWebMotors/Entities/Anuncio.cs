@@ -4,23 +4,67 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain.Entities
 {
-    [Table("GOL")]
+    [Table("tb_AnuncioWebmotors")]
     public class Anuncio
     {
-        [Column("Id")]
-        [Display(Description = "Código do Avião")]
-        public int? Id { get; set; }
+        [Column("ID")]
+        [Display(Description = "ID")]
+        public int id { get; set; }
 
-        [Column("Model")]
-        [Display(Description = "Modelo do Avião")]
-        public string Model { get; set; }
+        [Column("marca")]
+        [Display(Description = "Marca")]
+        public string marca { get; set; }
 
-        [Column("QtdPassengers")]
-        [Display(Description = "Quantidade de Passageiros")]
-        public int QtdPassengers { get; set; }
+        [Column("modelo")]
+        [Display(Description = "Modelo")]
+        public string modelo { get; set; }
 
-        [Column("CreationDate")]
-        [Display(Description = "Data de Criação")]
-        public DateTime? CreationDate { get; set; }
+        [Column("versao")]
+        [Display(Description = "Versão")]
+        public string versao { get; set; }
+
+        [Column("ano")]
+        [Display(Description = "Ano")]
+        public int ano { get; set; }
+
+        [Column("quilometragem")]
+        [Display(Description = "Quilometragem")]
+        public int quilometragem { get; set; }
+
+        [Column("observacao")]
+        [Display(Description = "Observação")]
+        public string observacao { get; set; }
+    }
+
+
+    public class Anuncio2
+    {
+        [Column("ID")]
+        [Display(Description = "ID")]
+        public int Id { get; set; }
+
+        //[Column("marca")]
+        //[Display(Description = "Marca")]
+        //public string marca { get; set; }
+
+        //[Column("modelo")]
+        //[Display(Description = "Modelo")]
+        //public string modelo { get; set; }
+
+        //[Column("versao")]
+        //[Display(Description = "Versão")]
+        //public string versao { get; set; }
+
+        //[Column("ano")]
+        //[Display(Description = "Ano")]
+        //public int ano { get; set; }
+
+        //[Column("quilometragem")]
+        //[Display(Description = "Quilometragem")]
+        //public int quilometragem { get; set; }
+
+        //[Column("observacao")]
+        //[Display(Description = "Observação")]
+        //public string observacao { get; set; }
     }
 }

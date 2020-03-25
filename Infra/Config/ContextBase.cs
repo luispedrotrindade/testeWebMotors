@@ -25,7 +25,7 @@ namespace Infra.Config
 
         private string GetConnectionString()
         {
-            return @"Server=DESKTOP-JH6V1J8\SQLEXPRESS;Database=Gol;Trusted_Connection=True;";
+            return @"Server=DESKTOP-JH6V1J8\SQLEXPRESS;Database=teste_webmotors;Trusted_Connection=True;";
         }
     }
 }

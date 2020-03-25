@@ -4,13 +4,13 @@ use teste_webmotors
 go 
 
 create table tb_AnuncioWebmotors(
-ID INT identity not null,
-marca varchar (45) not null,
-modelo varchar (45) not null,
-versao varchar (45) not null, 
-ano INT not null, 
-quilometragem INT not null, 
-observacao text not null 
+ID				int identity not null,
+marca			varchar (45) not null,
+modelo			varchar (45) not null,
+versao			varchar (45) not null, 
+ano				int not null, 
+quilometragem	int not null, 
+observacao		text not null 
 )
 go
 
@@ -62,7 +62,7 @@ create procedure UpdateAnuncio
 @versao			varchar(45),
 @ano			int,
 @quilometragem	int,
-@observacao		text
+@observacao		varchar(200)
 )
 as
 Begin 

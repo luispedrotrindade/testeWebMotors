@@ -9,35 +9,35 @@ namespace Application.Apps
 {
     public class AppAnuncio : IAppAnuncio
     {
-        IAnuncio _IAirPlane;
+        IAnuncio _IAnuncio;
 
         public AppAnuncio(IAnuncio IAnuncio)
         {
-            _IAirPlane = IAnuncio;
+            _IAnuncio = IAnuncio;
         }
         public void Add(Anuncio Entity)
         {
-            _IAirPlane.Add(Entity);
+            _IAnuncio.Add(Entity);
         }
 
         public void Delete(Anuncio Entity)
         {
-            _IAirPlane.Delete(Entity);
+            _IAnuncio.Delete(Entity);
         }
 
         public Anuncio GetEntity(int id)
         {
-            return _IAirPlane.GetEntity(id);
+            return _IAnuncio.GetEntity(id);
         }
 
         public List<Anuncio> List()
         {
-            return _IAirPlane.List();
+            return _IAnuncio.List();
         }
 
         public void Update(Anuncio Entity)
         {
-            _IAirPlane.Update(Entity);
+            _IAnuncio.Update(Entity);
         }
     }
 }
